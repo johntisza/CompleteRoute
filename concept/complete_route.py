@@ -84,7 +84,7 @@ class CompleteRoute:
         )  # for future integration into openmaps API
 
 
-my_route = CompleteRoute(3)
+my_route = CompleteRoute(5)
 
 my_route.move_sequence()
 move_1, move_2 = my_route.move_distance()
